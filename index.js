@@ -88,28 +88,28 @@ var obj = new fn1(20);
 // console.log(addNumberCall(6));
 
 
-function callTheNumber() {
-  function getAllNumbers(number) {
-    return function() {
-      return number;
-    };
-  }
-  var arrToStore = [];
-  for (var x = 0; x < 9; x++) {
-    arrToStore[x] = getAllNumbers(x);
-  }
-  return arrToStore;
-}
+// function callTheNumber() {
+//   function getAllNumbers(number) {
+//     return function() {
+//       return number;
+//     };
+//   }
+//   var arrToStore = [];
+//   for (var x = 0; x < 9; x++) {
+//     arrToStore[x] = getAllNumbers(x);
+//   }
+//   return arrToStore;
+// }
 
-const callInnerFunctions = callTheNumber();
-console.dir(callInnerFunctions);
-console.log(callInnerFunctions[0]()); // 0
-console.log(callInnerFunctions[1]()); // 1
+// const callInnerFunctions = callTheNumber();
+// console.dir(callInnerFunctions);
+// console.log(callInnerFunctions[0]()); // 0
+// console.log(callInnerFunctions[1]()); // 1
 
 
 
 //General Code
-// var forh1 = document.querySelector('h1');
+var forh1 = document.querySelector('h1');
 // var z = new Object();
 // z.fname="Suresh";
 // z.lname="Krishnaa";
@@ -117,16 +117,16 @@ console.log(callInnerFunctions[1]()); // 1
 // z.class.sec="A";
 // console.log(z);
 // console.log(z.class.sec); 
-// forh1.onclick = function(){
-//     var q = forh1.textContent;
-//     if(q=="Hello VS code....!!"){
-//         forh1.textContent="Javascript is magical!";
-//     }
-//     else{
-//         forh1.textContent="Hello VS code....!!";
-//     }
-// }
-//Objects concept
+forh1.onclick = function(){
+    var q = forh1.textContent;
+    if(q=="Hello VS code....!!🔥🔥🔥🔥🔥🔥"){
+        forh1.textContent="Javascript is magical!";
+    }
+    else{
+        forh1.textContent="Hello VS code....!!🔥🔥🔥🔥🔥🔥";
+    }
+}
+// Objects concept
 // var company = new Object();
 // company.name="Monu company";
 // company.ceo = new Object();
@@ -145,7 +145,7 @@ console.log(callInnerFunctions[1]()); // 1
 //     "$market stock": "$5cr"
 // };
 // console.log(newcomp);
-//Functions
+// Functions
 // function housemulti(mul){
 //     var myfun = function(x){
 //         console.log(mul,x);
